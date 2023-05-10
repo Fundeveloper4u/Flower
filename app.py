@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello world"
+    return "Hello world it's us Fundeveloper4u. We'r gonna make music recommendation app with the help of mood sensing."
 
 
 @app.route('/predict', methods=['POST'])
